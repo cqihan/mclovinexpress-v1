@@ -17,7 +17,7 @@ nav {
   justify-content: center;
   padding: 10px;
   cursor:pointer;
-
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   & .nav-icon-item {
     font-size: 25px;
     transition: transform .1s;

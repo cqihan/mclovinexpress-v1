@@ -1,0 +1,99 @@
+
+.wrap-phone {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.phone-hero {
+  width: 100%;
+  height: 600px;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../public/assets/background/background-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;    
+  background-position: 70% center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  & p {
+    width: 80%;
+    max-width: 900px;
+    color: #d4d4d4;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  }
+}
+
+.phone-container {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.phone-content-1 {
+  width: 80%;
+  max-width: 1600px;
+  height: auto;
+  margin: 0 auto 90px;
+
+  & h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+}
+
+.phone-1-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+
+  & .phone-photo-item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px ) {
+  
+  .phone-1-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 720px ) {
+  
+  .phone-1-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px ) {
+  
+  .phone-1-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .phone-content-1 {
+    width: 90%;
+  
+    & h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  }
+}

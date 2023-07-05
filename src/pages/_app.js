@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import '@/styles/navbar.scss';
 import '@/styles/footer.scss';
 import '@/styles/main.scss';
+import '@/styles/phone.scss';
 
 export default function App({ Component, pageProps }) {
   return (
